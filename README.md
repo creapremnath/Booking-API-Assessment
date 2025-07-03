@@ -1,10 +1,17 @@
 How to run the Application
 
 
+#Clone the repo or unzip the Source file
+
+git clone https://github.com/creapremnath/Booking-API-Assessment.git
+
+
 # Change to the Application Directory
 #Open the vscode terminal
 
-cd FITNESS STUDIO APP
+cd Booking-API-Assessment #if cloned from Github
+
+cd FITNESS STUDIO APP # if unzip from zip file
 
 
 # Create and activate a virtual environment
@@ -69,5 +76,3 @@ curl -X 'GET' \
 
 
 # Please check the POSTMAN collection.
-
-Omnify Assesment/Fitness Studio App/Fitness_studio.postman_collection.json
