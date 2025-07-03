@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "11d22043-db93-44c9-87e3-ef321973afef",
+		"name": "Fitness_studio",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41857824"
+	},
+	"item": [
+		{
+			"name": "List All Classes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/classes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"classes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Book a Slot for available class",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/book",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List the booked slots of User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/bookings?client_email=premnath@gmail.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"bookings"
+					],
+					"query": [
+						{
+							"key": "client_email",
+							"value": "premnath@gmail.com"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
